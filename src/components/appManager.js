@@ -57,7 +57,7 @@ class AppManager {
     }
 
     runService = async () => {
-        const thisServicePort = this.#runningConfType.service.port;
+        const thisServicePort = "this.#runningConfType.service.port";
         await this.#appExpress.listen(thisServicePort, () => {
             console.log(`AppManager is ready on ${thisServicePort}`);
         });
