@@ -57,7 +57,7 @@ class AppManager {
     }
 
     runService = async () => {
-        const thisServicePort = "https://backend-o3wd.onrender.com";
+        const thisServicePort = "https://backend-o3wd.onrender.com/";
         await this.#appExpress.listen(thisServicePort, () => {
             console.log(`AppManager is ready on ${thisServicePort}`);
         });
