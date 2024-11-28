@@ -25,6 +25,8 @@ class organismoControllers {
     }
 
     updateUsers2 = async (req, resp) => {
+        let data = [{ nombre_cientifico:"fetch funcionando"}]
+         resp.status(200).json(data);
         /*try {
             // Lógica para actualizar organismos
             let record = await organismoModel.updateUsers2(req.params.id_organismo, req.body);
@@ -42,7 +44,8 @@ class organismoControllers {
 
 
     deleteUsers2 = async (req, resp) => {
-      
+        let data = [{ nombre_cientifico:"fetch funcionando"}]
+        resp.status(200).json(data);
         /*
         let deletedCount = await organismoModel.deleteUser2(req.params.id_organismo);
     
