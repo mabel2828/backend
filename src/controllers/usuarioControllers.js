@@ -10,7 +10,7 @@ class usuarioControllers {
 
     fetchUsers = async (req, resp) => {
         // let data = await usuarioModel.fetchUsersAll();
-        let data = [{ nombre:"Jordy", apellido:"Galindo", direccion:"Garibaldi", email:"jordygalind0413@gmail.com", contraseña:"1234"}]
+        let data = [{ nombre:"Jose", apellido:"MArcos", direccion:"Garibaldi", email:"jordygalind0413@gmail.com", contraseña:"1234"}]
         resp.status(200).json(data);
     }
 
