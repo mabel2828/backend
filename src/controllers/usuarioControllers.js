@@ -10,7 +10,7 @@ class usuarioControllers {
 
     fetchUsers = async (req, resp) => {
         // let data = await usuarioModel.fetchUsersAll();
-        let data = [{ nombre:"Jose", apellido:"MArcos", direccion:"Garibaldi", email:"jordygalind0413@gmail.com", contraseña:"1234"}]
+        let data = [{ nombre:"Mabel", apellido:"Styles", direccion:"Junio 13", email:"mabel2828@gmail.com", contraseña:"2828"}]
         resp.status(200).json(data);
     }
 
@@ -25,7 +25,7 @@ class usuarioControllers {
     }
 
     updateUsers = async (req, resp) => {
-        let data = [{ nombre:"Jordy", apellido:"Galindo", direccion:"Garibaldi", email:"jordygalind0413@gmail.com", contraseña:"1234"}]
+       let data = [{ nombre:"Mabel", apellido:"Styles", direccion:"Junio 13", email:"mabel2828@gmail.com", contraseña:"2828"}]
         resp.status(200).json(data);
         // try {
         //     // Lógica para actualizar usuarios
@@ -44,7 +44,7 @@ class usuarioControllers {
 
     deleteUsers = async (req, resp) => {
       
-        let data = [{ nombre:"Jordy", apellido:"Galindo", direccion:"Garibaldi", email:"jordygalind0413@gmail.com", contraseña:"1234"}]
+       let data = [{ nombre:"Mabel", apellido:"Styles", direccion:"Junio 13", email:"mabel2828@gmail.com", contraseña:"2828"}]
         resp.status(200).json(data);
         // let deletedCount = await usuarioModel.deleteUser(req.params.id_usuario);
     
